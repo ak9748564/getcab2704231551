@@ -1,0 +1,549 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#section1a {
+  height: 290px;
+  padding-top: 120px;
+}
+
+#section1a > div {
+  background-image: url("./../images/header.jpg");
+  height: 100%;
+  padding: 80px 0px;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+#section1a > div > div {
+  font-family: "Dosis", sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #ffc000;
+  /* width: 168px; */
+  margin: auto;
+  letter-spacing: 2px;
+}
+
+#section1a > div > div > a {
+  color: #ffc000;
+  text-decoration: none;
+}
+
+#section1a > div > div > a:hover {
+  color: #ff9800;
+}
+
+#section1a > div > h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 67px;
+  line-height: 77px;
+  font-weight: 900;
+  color: white;
+}
+
+#section2on {
+  padding: 80px 0px;
+}
+
+#section2on > div {
+  max-width: 1170px;
+  margin: auto;
+  display: flex;
+}
+#section2on > div > #containeron {
+  width: 66.66%;
+  padding-right: 25px;
+}
+#section2on > div > #sidebaron_outer {
+  width: 33.33%;
+  padding-right: 25px;
+}
+#section2on > div > #containeron > div .containeron a {
+  font-family: "Raleway", sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+  font-style: normal;
+  line-height: 50px;
+  text-decoration: none;
+  color: #343332;
+}
+#section2on > div > #containeron > div div a {
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 20px;
+  text-decoration: none;
+  color: #343332;
+}
+#section2on > div > #containeron > div div a:hover {
+  color: #ffc000;
+}
+#section2on > div > #containeron > div .containeron p {
+  font-family: "Raleway", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 18px;
+  margin-top: 20px;
+  color: #6d6d6d;
+}
+#section2on > div > #containeron > div .containeron > div > a {
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 30px;
+  text-decoration: none;
+  color: #ababab;
+}
+#section2on > div > #containeron > div .containeron a:hover {
+  color: #ffc000;
+}
+.read_more {
+  font-family: "Raleway", sans-serif;
+  font-size: 13px;
+  line-height: 15px;
+  font-weight: 600;
+  color: white;
+  padding: 15px 30px;
+  margin-top: 30px;
+  width: 72px;
+  background: linear-gradient(
+      to right,
+      #ff9800 0%,
+      #ffc000 50%,
+      #ffc000 50%,
+      #ff9800 100%
+    )
+    no-repeat scroll right bottom/210% 100% #ffc000;
+  border-radius: 30px;
+}
+.dots {
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  background: #ffc000;
+}
+.d_left {
+  position: relative;
+  right: -6px;
+}
+.d_right {
+  position: relative;
+  left: -6px;
+}
+#section2on > div > #sidebaron_outer {
+  width: 350px;
+}
+#section2on > div > #sidebaron_outer #sidebaron {
+  padding: 50px;
+  width: 350px;
+}
+#section2on > div > #sidebaron_outer #sidebaron .sidebaron:nth-child(2),
+#section2on > div > #sidebaron_outer #sidebaron .sidebaron:nth-child(3) {
+  display: none;
+}
+
+#section2on
+  > div
+  > #sidebaron_outer
+  #sidebaron
+  > .sidebaron
+  > .sidebaron_elements,
+#section2on
+  > div
+  > #sidebaron_outer
+  #sidebaron
+  > .sidebaron
+  > .sidebaron_bigger_elements
+  > .sidebaron_elements {
+  padding: 20px 0px;
+}
+#section2on
+  > div
+  > #sidebaron_outer
+  #sidebaron
+  > .sidebaron
+  > .sidebaron_elements
+  h1,
+#section2on
+  > div
+  > #sidebaron_outer
+  #sidebaron
+  > .sidebaron
+  > .sidebaron_bigger_elements
+  > .sidebaron_elements
+  h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 29px;
+  color: #272727;
+  letter-spacing: 1px;
+}
+#section2on
+  > div
+  > #sidebaron_outer
+  #sidebaron
+  > .sidebaron
+  > .sidebaron_elements
+  ul
+  li,
+#section2on
+  > div
+  > #sidebaron_outer
+  #sidebaron
+  > .sidebaron
+  > .sidebaron_bigger_elements
+  > .sidebaron_elements
+  ul
+  li {
+  list-style: none;
+}
+#section2on
+  > div
+  > #sidebaron_outer
+  #sidebaron
+  > .sidebaron
+  > .sidebaron_elements
+  ul
+  li
+  svg,
+#section2on
+  > div
+  > #sidebaron_outer
+  #sidebaron
+  > .sidebaron
+  > .sidebaron_bigger_elements
+  > .sidebaron_elements
+  ul
+  li
+  svg {
+  color: #ffc000;
+  margin-right: 10px;
+}
+#section2on
+  > div
+  > #sidebaron_outer
+  #sidebaron
+  > .sidebaron
+  > .sidebaron_elements
+  ul
+  li
+  a,
+#section2on
+  > div
+  > #sidebaron_outer
+  #sidebaron
+  > .sidebaron
+  > .sidebaron_bigger_elements
+  > .sidebaron_elements
+  ul
+  li
+  a {
+  text-decoration: none;
+  font-family: "Dosis", sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #6d6d6d;
+  letter-spacing: 1px;
+}
+#section2on
+  > div
+  > #sidebaron_outer
+  #sidebaron
+  > .sidebaron
+  > .sidebaron_elements
+  ul
+  li
+  a:hover,
+#section2on
+  > div
+  > #sidebaron_outer
+  #sidebaron
+  > .sidebaron
+  > .sidebaron_bigger_elements
+  > .sidebaron_elements
+  ul
+  li
+  a:hover {
+  color: #ffc000;
+}
+#section2on
+  > div
+  > #sidebaron_outer
+  #sidebaron
+  > .sidebaron
+  > .sidebaron_elements
+  p,
+#section2on
+  > div
+  > #sidebaron_outer
+  #sidebaron
+  > .sidebaron
+  > .sidebaron_bigger_elements
+  > .sidebaron_elements
+  p {
+  text-decoration: none;
+  font-family: "Dosis", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #6d6d6d;
+  letter-spacing: 0px;
+  padding: 7px 27px;
+  margin: 5px;
+  background: white;
+  border-radius: 20px;
+  display: inline-block;
+}
+
+#categories h1,#tags h1{
+  font-family: "Raleway", sans-serif;
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: 600;
+  color: #343332;
+margin-bottom:0;
+}
+#categories a,#tags a{
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #6d6d6d;
+}
+#categories a:hover,#tags a:hover{
+  color: #6d6d6d;
+}
+.our_news_links_icon svg{
+  color: #ffc000;
+}
+.our_news_links_icon svg:hover{
+  color:white;
+  background: #ffc000;
+}
+#author h1{
+  font-family: "Dosis", sans-serif;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 800;
+  color: #ffc000;
+  letter-spacing: 1px;
+}
+#author h2{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 32px;
+  line-height: 38px;
+  font-weight: 500;
+  color: #212529;
+  letter-spacing: 1px;
+}
+#author p{
+  font-family: "Dosis", sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 500;
+  color: #6d6d6d;
+  letter-spacing: 1px;
+}
+#comments_heading{
+  font-family: "Raleway", sans-serif;
+  font-size: 45px;
+  line-height: 58px;
+  font-weight: 900;
+  color: #343332;
+  letter-spacing: 1px;
+}
+.comments{
+  display: flex;
+  width: 70%;
+  padding: 20px;
+}
+.comments h1{
+  font-family: "Dosis", sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 500;
+  color: #6d6d6d;
+  letter-spacing: 1px;
+}
+.comments h2{
+  font-family: "Dosis", sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 500;
+  color: #6d6d6d;
+  letter-spacing: 1px;
+}
+.comments h3{
+  font-family: "Dosis", sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 700;
+  color: #343332;
+  letter-spacing: 1px;
+}
+.comments h3:hover{
+  color: #ffc000;
+ 
+}
+#name_email{
+  display: flex;
+}
+#name_email > div{
+width: 50%;
+margin: 10px;
+}
+  
+ 
+
+@media (max-width: 1450px) {
+  #section2on > div {
+    width: 1000px;
+  }
+}
+
+@media (max-width: 1250px) {
+  #section2on > div {
+    width: 900px;
+  }
+}
+
+@media (max-width: 950px) {
+  #section2on > div {
+    display: block;
+    width: 700px;
+  }
+  #section2on > div > #containeron {
+    display: block;
+    width: 700px;
+  }
+  #section2on > div > #sidebaron_outer {
+    width: 700px;
+  }
+  #section2on > div > #sidebaron_outer #sidebaron {
+    width: 700px;
+  }
+  #section2on > div > #sidebaron_outer #sidebaron .sidebaron:nth-child(1) {
+    display: none;
+  }
+  #section2on > div > #sidebaron_outer #sidebaron .sidebaron:nth-child(2) {
+    display: block;
+    width: 100%;
+  }
+  #section2on
+    > div
+    > #sidebaron_outer
+    #sidebaron
+    .sidebaron:nth-child(2)
+    .sidebaron_elements {
+    width: 33.33%;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 850px) {
+  #section2on > div {
+    display: block;
+    width: 700px;
+  }
+  #section2on > div > #containeron {
+    display: block;
+    width: 700px;
+  }
+}
+
+@media (max-width: 750px) {
+  #section2on > div {
+    display: block;
+    width: 600px;
+  }
+  #section2on > div > #containeron {
+    display: block;
+    width: 600px;
+  }
+  #section2on > div > #sidebaron_outer {
+    width: 600px;
+  }
+  #section2on > div > #sidebaron_outer #sidebaron {
+    width: 600px;
+  }
+  #section2on > div > #sidebaron_outer #sidebaron .sidebaron:nth-child(1),
+  #section2on > div > #sidebaron_outer #sidebaron .sidebaron:nth-child(2) {
+    display: none;
+  }
+  #section2on > div > #sidebaron_outer #sidebaron .sidebaron:nth-child(3) {
+    display: block;
+    width: 100%;
+  }
+  #section2on
+    > div
+    > #sidebaron_outer
+    #sidebaron
+    .sidebaron:nth-child(3)
+    .sidebaron_elements {
+    width: 50%;
+    padding-right: 20px;
+  }
+}
+
+@media (max-width: 650px) {
+  #section2on > div {
+    display: block;
+    width: 450px;
+  }
+  #section2on > div > #containeron {
+    display: block;
+    width: 450px;
+  }
+  #section2on > div > #sidebaron_outer {
+    width: 450px;
+  }
+  #section2on > div > #sidebaron_outer #sidebaron {
+    width: 450px;
+  }
+}
+
+@media (max-width: 500px) {
+  #section2on > div {
+    display: block;
+    width: 100%;
+  }
+  #section2on > div > #containeron {
+    display: block;
+    width: 100%;
+  }
+  #section2on > div > #sidebaron_outer {
+    width: 100%;
+  }
+  #section2on > div > #sidebaron_outer #sidebaron {
+    width: 100%;
+  }
+  #section2on > div > #sidebaron_outer #sidebaron .sidebaron:nth-child(3),
+  #section2on > div > #sidebaron_outer #sidebaron .sidebaron:nth-child(2) {
+    display: none;
+  }
+  #section2on > div > #sidebaron_outer #sidebaron .sidebaron:nth-child(1) {
+    display: block;
+  }
+  #section2on > div > #containeron {
+    padding: 25px;
+  }
+  #name_email{
+    display: block;
+  }
+  #name_email > div{
+    display: block;
+    width: 100%;
+    margin: 0;
+  }
+}
